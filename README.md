@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project demonstrates an end-to-end DevOps pipeline for deploying a Python Flask microservice on Kubernetes using AWS infrastructure.
+This project demonstrates an end-to-end DevOps pipeline for deploying a secure Python Flask microservice on Kubernetes using AWS.
 
-## Technologies
+## Technology Stack
 
 - Python Flask
 - Docker
@@ -14,17 +14,24 @@ This project demonstrates an end-to-end DevOps pipeline for deploying a Python F
 - Ansible
 - Prometheus
 - Grafana
-- AWS
+- AWS EC2
 
----
+## Project Progress
 
-## Progress
+### ✅ Step 1 – Repository Initialization
 
-### ✅ Step 1 - Project Initialization
-
-Completed:
 - Created GitHub repository
 - Initialized Git
-- Created project directory structure
+- Created project structure
 - Added `.gitignore`
-- Added initial README
+
+### ✅ Step 2 – Flask Microservice
+
+Completed:
+
+- Created Flask application
+- Added `/` endpoint
+- Added `/health` endpoint
+- Configured application to run on port **8080**
+
+Status: ✔ Completed
