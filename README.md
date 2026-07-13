@@ -35,3 +35,16 @@ Completed:
 - Configured application to run on port **8080**
 
 Status: ✔ Completed
+
+### ✅ Step 3 – Dockerization
+
+Completed:
+
+- Created a multi-stage Docker build.
+- Used `python:3.11-slim` as the base image.
+- Created a non-root user (`appuser`).
+- Configured Gunicorn as the production server.
+- Exposed port `8080`.
+- Built and tested the Docker container locally.
+
+Status: ✔ Completed
